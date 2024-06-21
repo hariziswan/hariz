@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.chart {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin: 20px 0 10px;
+}

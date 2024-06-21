@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Data Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Air Quality Data Dashboard</h1>
+        <div id="pm25-chart" class="chart"></div>
+        <div id="pm10-chart" class="chart"></div>
+        <label for="date-picker-start">Select Date and Time Range:</label>
+        <input type="date" id="date-picker-start">
+        <input type="date" id="date-picker-end">
+    </div>
+</body>
+</html>
